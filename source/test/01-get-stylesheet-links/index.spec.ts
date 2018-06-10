@@ -2,8 +2,8 @@ import {expect} from 'chai';
 import getremoteStylesheetLinks from '../..';
 import html from './mock-data';
 
-describe("vamtiger-get-local-stylesheet-paths: should get", function () {
-    it("local stylesheet paths", async function () {
+describe("vamtiger-get-remote-stylesheet-paths: should get", function () {
+    it("remote stylesheet paths", async function () {
         const expected = [
             'https://remote/stylesheet/link/index.css'
         ];
