@@ -1,0 +1,40 @@
+{
+    "name": "vamtiger-get-remote-stylesheet-paths",
+    "version": "0.0.1",
+    "description": "Get a list of remote stylesheet paths for defined HTML document text.",
+    "main": "build",
+    "scripts": {
+        "test": "mocha build/test --recursive",
+        "build": "tsc",
+        "commit": "vamtigerNodeTypescriptCommit --push --publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vamtiger-project/vamtiger-get-remote-stylesheet-paths.git"
+    },
+    "keywords": [
+        "vamtiger",
+        "stylesheet",
+        "paths",
+        "remote"
+    ],
+    "author": "Vamtiger Immortalles",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vamtiger-project/vamtiger-get-remote-stylesheet-paths/issues"
+    },
+    "homepage": "https://github.com/vamtiger-project/vamtiger-get-remote-stylesheet-paths#readme",
+    "types": "build/index.d.ts",
+    "devDependencies": {
+        "@types/chai": "^4.1.3",
+        "@types/mocha": "^5.2.1",
+        "@types/node": "^10.3.2",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "typescript": "^2.9.1",
+        "vamtiger-node-typescript-commit": "0.0.51"
+    },
+    "dependencies": {
+        "vamtiger-get-local-stylesheet-paths": "0.0.3"
+    }
+}
