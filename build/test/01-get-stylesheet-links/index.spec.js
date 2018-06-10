@@ -11,8 +11,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const chai_1 = require("chai");
 const __1 = require("../..");
 const mock_data_1 = require("./mock-data");
-describe("vamtiger-get-local-stylesheet-paths: should get", function () {
-    it("local stylesheet paths", function () {
+describe("vamtiger-get-remote-stylesheet-paths: should get", function () {
+    it("remote stylesheet paths", function () {
         return __awaiter(this, void 0, void 0, function* () {
             const expected = [
                 'https://remote/stylesheet/link/index.css'
